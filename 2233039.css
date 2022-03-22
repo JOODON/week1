@@ -9,14 +9,10 @@ body{/*배경설정*/
 mark{/*마크설정*/
     background-color: rgb(221, 169, 56);
 }
-.내용{/*자기소개 위치 변경*/
-    text-align: left;
-    font-size:20px; 
-    border: 0px solid rgb(126, 218, 41);/*테두리 영역 설정*/
-    width: 500; height: 500;
-    position: relative;
-    top:-500; left:400;
+.목차 mark{
+    background-color: bisque;
 }
+
 .목차{/*목차 위치 변경*/
     text-align: left;
     font-size:20px; 
@@ -42,6 +38,13 @@ mark{/*마크설정*/
     background-color: rgb(146, 163, 219);
     margin-bottom: 10px;
 }
+.목차내용 li:hover{/*클릭 상태*/
+    color:red;
+    background-color: aqua;
+}
+.목차내용 a:hover{/*클릭 상태*/
+    color:red;
+}
 .a { 
     border-collapse: collapse;
     width: 200px;
@@ -66,18 +69,14 @@ mark{/*마크설정*/
 .ab tr:nth-child(odd){/*홀수 만 색넣기 짝수는 even*/
     background: rgb(221, 214, 155);
 }
-a:link{ /*평소 상태*/
+.링크이동 a:link{ /*평소 상태*/
     text-decoration: none;
 }
-a:hover{/*클릭 상태*/
+.링크이동 a:hover{/*클릭 상태*/
     color:red;
     text-decoration: underline; 
-} 
-.소사컴퍼스사진{/*사진 위치 선정*/
-    text-align: left;
-    font-size:20px; 
-    border: 0px solid rgb(203, 248, 161);
-    width: 300; height: 200;
-    position: relative;
-    top:-500; left:500
+    background-color: bisque;
+    }
+.소사컴퍼스{/*사진 위치 선정*/
+    width:auto; height: 200px;
 }
